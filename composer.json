@@ -4,7 +4,7 @@
     "type": "package",
     "autoload": {
         "psr-4": {
-            "SamJoyce777\\LaravelLogger\\": "src/"
+            "SamJoyce777\\LaravelControllerAudit\\": "src/"
         }
     },
     "require": {}
