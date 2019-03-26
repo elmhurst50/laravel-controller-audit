@@ -1,0 +1,11 @@
+{
+    "name": "samjoyce777/laravel-controller-audit",
+    "description": "Laravel auditing for controllers",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "SamJoyce777\\LaravelLogger\\": "src/"
+        }
+    },
+    "require": {}
+}
