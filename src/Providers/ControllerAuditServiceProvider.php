@@ -25,6 +25,8 @@ class ControllerAuditServiceProvider extends ServiceProvider
         if (! $this->app->routesAreCached()) {
             require __DIR__.'/../Http/Routes/routes.php';
         }
+
+        $this->loadMigrationsFrom(__DIR__.'/../Database/Migrations');
     }
 
     /**
